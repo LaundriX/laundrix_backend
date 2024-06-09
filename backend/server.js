@@ -4,7 +4,7 @@ const dotenv = require("dotenv").config();
 const connectDb = require("./config/db");
 const cors = require("cors");
 
-app.use(cors({ origin: ['https://launrdi-x.netlify.app','http://localhost:5173'], credentials: true }))
+app.use(cors({ origin: ['https://laundri-x.netlify.app','http://localhost:5173'], credentials: true }))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
